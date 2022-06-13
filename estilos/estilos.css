@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,300;0,500;1,900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*----body----*/
+body{
+    background-color: rgb(9, 3, 100);
+    color: antiquewhite;
+}
+
+/*----header----*/
+
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.titulo img{
+    width: 20%;
+    height: 20vh;
+    margin-right: 5%;
+}
+.titulo h1{
+    font-style: italic ;
+    font-size: 100px;
+    text-align: end;        
+}
+
+/*----nav----*/
+
+.menu{   
+    width: 100%;    
+    /*padding: 5px;*/    
+}
+/*.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+.menu ul li{
+   /* font-size: larger;
+    text-align: center;*/
+    width: 20%;    
+    border: double rgb(0, 162, 255);
+    /*display: inline-block;*/
+}
+.menu ul li a{
+    color: rgb(0, 162, 255);
+}   
+
+
+/*-----------section-saludo-------------*/
+
+.presentacion{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.presentacion img{
+    
+    border: 1px solid rgb(0, 162, 255);
+}
+.presentacion h2{
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: underline;
+    
+}
+.presentacion p{
+    font-size: 100;
+}
+
+/*-----------seccion-camisetas-----------*/
+
+.camisetas article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.camisetas h3{
+    text-align: center;
+    font-size: 700;
+}
+.camisetas article img{   
+    height: 300px;
+    margin: 5px;
+    border: solid 2px rgb(0, 162, 255);
+}
+
+/*-----------aside-----------*/
+
+.paginas{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.paginas iframe{    
+    width: 50%;
+    margin: 5px;
+}
+
+/*----main-nosotros----*/
+
+
+.nos{
+    display: flex; 
+    align-items: center;   
+}
+.nos div{
+    width: 50%;
+}
+.nos div h2{
+    font-size: 3rem;
+    font-style: bold;
+    text-decoration: underline;
+    text-align: center;
+  
+}
+.nos div p{
+    text-align: center;
+    font-style: normal;
+    line-height: 250%;
+    font-size: 500;
+    padding: 30px;
+}
+.nos div img{
+   width: 100%;
+   height: auto;
+   
+}
+
+/*----main-productos----*/
+
+.productos{
+    text-align: center;
+    font-style: normal;    
+}
+.productos h2{
+    
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: underline;
+}
+.productos h3{
+    font-size: 700;
+    font-style: italic;
+    text-align: justify;
+}
+.productos section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.productos section div img{
+    width: 100%;
+    height: 300px;
+   
+    border: solid 2px rgb(0, 162, 255);  
+}
+.productos section div p{
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/*----main-informacion----*/
+.info{
+    text-align: center;
+    font-style: normal;
+    background:  url(https://cdn.resfu.com/scripts/tmp_images/agencia-efe_multimedia_55008223330.multimedia.photos.55008223330003.file.jpg?size=1000x&lossy=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    width: 100%;    
+}
+.info h2{    
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: underline;
+}
+.info h3{   
+    font-size: 700;
+    font-style:  italic;    
+}
+.info section{
+    text-align: justify;
+    line-height: 25px;
+    width: 50%;
+}
+.pregunta{
+    font-size: 300;
+    font-style: bold;
+}
+.respuesta{
+    font-size: 300;
+    font-style: normal;
+}
+.respuesta a{
+    color: rgb(0, 162, 255);
+}
+
+/*----main-contacto----*/
+.contacto{
+    text-align: center;
+    font-style: normal;
+    padding: 20px;
+    width: 100%;
+}
+.contacto h2{
+    
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: underline;
+}
+.contacto p{    
+    font-size: 500;
+    font-style: italic;
+    margin: 10px;
+}
+.form{
+    margin: 15px;  
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid white;
+}  
+.form div{
+    margin-top: 10px;
+}
+
+/*----footer----*/
+
+.final{
+    width: 100%;
+    height: 60vh;
+    font-size: 300; 
+    padding: 10px; 
+    background-image: url(https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.final section{
+    display: flex;        
+}
+.mapa{
+    width: 50%;
+    height: 20vh;
+}
+.mapa iframe{
+    width: 50%;
+}
+.mapa p{
+    text-align: justify;
+}
+.final section a{
+    color: rgb(0, 162, 255);
+}
+.redes{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.redes div h4{
+    font-size: 2rem;
+}
+.redes div a img{
+    width: 50px;
+    height: 50px; 
+    padding: 5px;
+}
+
+
+/*------grids por areas--------*/
+#grilla-areas{
+    display: grid;
+    /*estructura grid por area*/
+    grid-template-areas: 
+    /*2columnas y 5filas*/
+    "cabeza cabeza"/*fila 1*/
+    "menu menu "/*fila 2*/
+    "saludo brazo "/*fila 3*/
+    "fotos fotos"/*fila 4*/
+    "pie pie "/*fila 5*/
+    ;
+    grid-template-columns: auto 65%;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+.grilla-galeria{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50vh;
+}
+
+/*nombrar areas*/
+
+header {
+    grid-area: cabeza;
+}
+footer {
+    grid-area: pie;
+}
+#saludo {
+    grid-area: saludo;
+}
+#fotos {
+    grid-area: fotos;    
+}
+nav {
+    grid-area: menu;
+}
+aside {
+    grid-area: brazo;
+}
+
+
+
+/*-----------------------tablet-----------------*/
+/*----------------------------------------------*/
+
+@media (max-width: 1023px) {
+
+ /*----header----*/   
+    .titulo{      
+        align-items: center;
+    }
+    .titulo h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+/*-----------section-saludo-------------*/
+    .presentacion p{
+        font-size: 1rem;
+    }
+
+/*-----------seccion-camisetas-----------*/
+    .camisetas h3{
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+/*-----------aside-----------*/
+    .paginas{          
+        align-items: center;
+    }
+    .paginas iframe{
+        margin: 15px;
+        width: 90%;
+        height: 50vh;
+    }
+
+/*------grids por areas--------*/
+    #grilla-areas{
+        display: grid;
+    /*estructura grid por area*/
+        grid-template-areas: 
+    /*1columnas y 6filas*/
+        "cabeza"/*fila 1*/
+        "menu"/*fila 2*/
+        "saludo"/*fila 3*/
+        "fotos"/*fila 4*/
+        "brazo"/*fila 5*/
+        "pie"/*fila 6*/
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 20vh auto ;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+    }
+
+}
+
+/*----------------tablet pequeñas---------------*/
+/*----------------------------------------------*/
+
+@media (max-width: 768px){
+
+/*----header----*/    
+.titulo h1{
+    font-size: 3rem;
+}
+
+/*-----------seccion-camisetas-----------*/
+.camisetas article img{   
+    height: 50vh;
+}
+
+/*-----------aside-----------*/
+.paginas{    
+    flex-flow: column wrap;       
+}
+
+/*----main-nosotros----*/
+.nos{
+    flex-direction: column;
+}
+.nos div{
+    width: 100%;
+}
+.nos div h2{
+    font-size: 2rem;
+}
+.nos div p{
+    line-height: 150%;
+    font-size: 300;
+}
+
+/*----main-nosotros----*/
+.productos h3{
+    text-align: center;
+}
+
+/*----main-informacion----*/
+
+.info{
+    color: white;
+    background:  url(https://i.pinimg.com/originals/96/fa/4d/96fa4de7a5b4b34585c0bf4ca5a8f363.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 100%;    
+}
+.info section{
+    width: 80%;
+}
+.pregunta{ 
+    font-size: 200;   
+}
+.respuesta{        
+    font-size: 200;   
+}
+
+/*-----footer-----*/
+.mapa p{
+    width: 50%;
+    text-align: center;
+}
+}
+
+/*-------------------smartphone------------------*/
+/*----------------------------------------------*/
+
+@media (max-width: 480px){
+
+/*----header----*/
+.titulo h1{
+    font-size: 2rem;
+}
+
+/*------nav------*/
+.menu{
+    height: auto;
+}
+.menu ul{
+    flex-direction: column;    
+}
+.menu ul li{
+    font-size: 1rem;
+    width: 100%; 
+    border: solid 1px rgb(0, 162, 255);  
+}
+
+/*-----------seccion-camisetas-----------*/
+.camisetas article{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.camisetas article img{   
+    height: 60vh;
+    width: 90%;  
+}
+
+
+
+
+
+
+
+
+/*-----footer-----*/
+.redes div a{
+    display: block;
+}
+
+
+
+
+
+
+    
+}

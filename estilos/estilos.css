@@ -62,7 +62,6 @@ body{
     color: rgb(0, 162, 255);
 }   
 
-
 /*-----------section-saludo-------------*/
 
 .presentacion{
@@ -74,8 +73,6 @@ body{
 }
 
 /*-----------seccion-camisetas-----------*/
-
-
 .camisetas h3{
     text-align: center;
     font-size: 700;
@@ -90,8 +87,6 @@ body{
 
 /*-----------aside-----------*/
 
-
-
 .paginas{  
     display: flex;
     justify-content: space-between;
@@ -99,10 +94,7 @@ body{
     margin-top: 5px;
 }
 .paginas iframe{
-    width: 100%;
-    
-
-   
+    width: 100%;   
 }
 
 /*----main-nosotros----*/
@@ -112,9 +104,7 @@ body{
     display: flex; 
     align-items: center;   
 }
-.nos div{
-    width: 50%;
-}
+
 .nos div h2{
     font-size: 3rem;
     font-style: bold;
@@ -122,25 +112,25 @@ body{
     text-align: center;
   
 }
-.nos div p{
+.nos div div div p{
     text-align: center;
     font-style: normal;
-    line-height: 250%;
-    font-size: 500;
+    line-height: 150%;
+    font-size: 300;
     padding: 30px;
 }
-.nos div img{
+.nos div div div img{
+
    width: 100%;
-   height: auto;
-   
+   height: 60vh;
+   margin-top: 15px;
 }
 
 /*----main-productos----*/
 
 .productos{
-   
     text-align: center;
-    font-style: normal;    
+    font-style: normal;   
 }
 .productos h2{    
     font-size: 30px;
@@ -152,16 +142,12 @@ body{
     font-style: italic;
     text-align: justify;
 }
-
-
 .productos div div div{
-   
     margin-top: 10px;
     background-color: black;
     border: solid 2px rgb(0, 162, 255);
 }
-.productos div div img{
-    
+.productos div div img{    
     height: 300px;
 }
 .tarjeta{
@@ -209,10 +195,7 @@ body{
 /*----main-contacto----*/
 .contacto{
     text-align: center;
-
 }
-
-
 .contacto p{    
     padding: 10px;
     margin: 10px;
@@ -287,25 +270,17 @@ body{
 }
 
 /*----main-nosotros----*/
-.nos{
-    flex-direction: column;
-}
 .nos div{
     width: 100%;
 }
 .nos div h2{
     font-size: 2rem;
 }
-.nos div p{
-    line-height: 150%;
-    font-size: 300;
-}
 
 /*----main-productos----*/
-.productos h3{
+.productos div h3{
     text-align: center;
 }
-
 .tarjeta{
     width: 90%;   
 }

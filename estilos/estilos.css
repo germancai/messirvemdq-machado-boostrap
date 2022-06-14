@@ -209,26 +209,20 @@ body{
 /*----main-contacto----*/
 .contacto{
     text-align: center;
-    font-style: normal;
-    padding: 20px;
-    width: 100%;
+
 }
-.contacto h2{
-    
-    font-size: 30px;
-    font-style: bold;
-    text-decoration: underline;
-}
+
+
 .contacto p{    
-    font-size: 500;
-    font-style: italic;
+    padding: 10px;
     margin: 10px;
 }
 .form{
-    margin: 15px;  
-    width: 100%; 
+    text-align: justify;
+    margin: auto;  
+    width: 60%; 
     padding: 10px;
-    border: 1px solid white;
+    border: 5px solid antiquewhite;
 }  
 .form div{
     margin-top: 10px;
@@ -264,10 +258,7 @@ body{
         font-size: 5rem;
         text-align: center;
     }
-
 }  
-
-
 
 /*-----------aside-----------*/
     .paginas{          
@@ -279,10 +270,7 @@ body{
         height: 50vh;
     }
 
-
-
-
-/*-----------------------medium-----------------*/
+/*------------------medium-----------------*/
 /*----------------------------------------------*/
 @media (max-width: 768px){
 
@@ -363,7 +351,7 @@ p{
     font-size: 3rem;
 }
 
-------nav------
+/*------nav------*/
 .menu{
     height: auto;
 }
@@ -389,11 +377,5 @@ p{
 p{
     font-size: 0.75rem;
 }
-
-
-
-
-
-
     
 }

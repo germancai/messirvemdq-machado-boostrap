@@ -100,6 +100,8 @@ body{
 }
 .paginas iframe{
     width: 100%;
+    
+
    
 }
 
@@ -136,34 +138,34 @@ body{
 /*----main-productos----*/
 
 .productos{
+   
     text-align: center;
     font-style: normal;    
 }
-.productos h2{
-    
+.productos h2{    
     font-size: 30px;
     font-style: bold;
     text-decoration: underline;
 }
-.productos h3{
+.productos div h3{
     font-size: 700;
     font-style: italic;
     text-align: justify;
 }
-.productos section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+
+
+.productos div div div{
+   
+    margin-top: 10px;
+    background-color: black;
+    border: solid 2px rgb(0, 162, 255);
 }
-.productos section div img{
-    width: 100%;
-    height: 300px;   
-    border: solid 2px rgb(0, 162, 255);  
+.productos div div img{
+    
+    height: 300px;
 }
-.productos section div p{
-    text-align: center;
-    line-height: 25px;
+.tarjeta{
+    width: 18rem;
 }
 
 
@@ -249,18 +251,6 @@ body{
     height: 24px;    
 }
 
-
-
-
-.grilla-galeria{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 50vh;
-}
-
-
-
-
 /*-----------------------tablet-----------------*/
 /*----------------------------------------------*/
 
@@ -277,7 +267,6 @@ body{
 
 }  
 
-/*-----------seccion-camisetas-----------*/
 
 
 /*-----------aside-----------*/
@@ -285,11 +274,16 @@ body{
         align-items: center;
     }
     .paginas iframe{
-        margin: 15px;
-        width: 90%;
+        margin: 5px;
+        width: 100%;
         height: 50vh;
     }
 
+
+
+
+/*-----------------------medium-----------------*/
+/*----------------------------------------------*/
 @media (max-width: 768px){
 
 /*----header----*/    
@@ -319,9 +313,13 @@ body{
     font-size: 300;
 }
 
-/*----main-nosotros----*/
+/*----main-productos----*/
 .productos h3{
     text-align: center;
+}
+
+.tarjeta{
+    width: 90%;   
 }
 
 /*----main-informacion----*/
@@ -381,8 +379,7 @@ p{
 /*-----------seccion-camisetas-----------*/
 
 .camisetas div img{   
-    height: 60vh;
-   
+    height: 60vh;  
 }
 
 /*-----footer-----*/
